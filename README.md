@@ -1,4 +1,4 @@
-# SEO & Marketing APIs: Keywords, SERP, Audits and Growth Data
+# SEO APIs: See Google Rankings, Keywords and Backlinks Instantly
 
 <p align="center">
  <img src="https://images.bigibyte.com/projects/bigibyte-github-seo-marketing-apis-cover.png" alt="SEO & Marketing APIs: SEO and marketing APIs" width="100%">
@@ -13,11 +13,12 @@
 <p align="center">
  <a href="#top-10-most-popular">Top 10</a> ·
  <a href="#table-of-contents">Categories</a> ·
- <a href="#how-to-use">How to use</a> ·
- <a href="#faq">FAQ</a>
+ <a href="#more-lists">More lists</a>
 </p>
 
-**A big, tidy list of SEO and marketing APIs** for keywords, SERP results, site audits, backlinks and ads data. **8,582 APIs**, sorted by real users so the useful ones show up first.
+Want your website to show up higher on Google? These APIs show you how sites rank, which keywords people search for and who links to whom. **8,582 ready-to-use APIs**, sorted by real users so the best ones come first.
+
+These SEO and marketing APIs help you pull SERP data, keyword ideas, search volume, backlinks, site audits and ad data. Use them as a Google search results scraper, keyword research tool, rank tracker, backlink checker, Google Trends scraper and Google Ads Transparency scraper. Each API runs in the cloud and exports JSON, CSV or Excel for your SEO tools.
 
 ---
 
@@ -1044,45 +1045,6 @@ If this list helped you, a star helps other people find it too.
 
 
 [View all 18 in this section →](lists/ebay-walmart.md)
-
----
-
-## How to use
-
-1. Open any API link in this repo.
-2. Read the input fields (usually a keyword, domain or page URL).
-3. Run a small test so you see the output shape.
-4. Export the dataset as JSON, CSV or Excel, or call the same API from your code.
-
-
-```bash
-# Example: send JSON to any HTTP API you choose
-curl -X POST "https://httpbin.org/post" \
- -H "Content-Type: application/json" \
- -d '{"query":"example","limit":10}'
-```
-
----
-
-## FAQ
-
-**What is the best SERP API?** 
-Start with the [Top 10](#top-10-most-popular). Then open the SEO / SERP section for more options.
-
-**Can I scrape Google search results?** 
-Many APIs in SEO / SERP do that. Follow Google rules and local laws, and keep request rates reasonable.
-
-**How do I audit on-page SEO in bulk?** 
-Use metadata and audit-style APIs on a URL list, then export title, description and heading fields.
-
-**How is this list organized?** 
-By theme. Full tables live in the [`lists/`](lists/) folder. The README shows a preview of each category.
-
-**How often is it updated?** 
-Last build: 2026-11-02. Rebuild when you need a newer snapshot.
-
-**Why do some ratings say n/a?** 
-That API has no public rating yet.
 
 ---
 
